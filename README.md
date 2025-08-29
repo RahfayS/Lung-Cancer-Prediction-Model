@@ -1,26 +1,30 @@
 # 📌 Lung Cancer Mortality Classifier Model
 
-This notebook explores a dataset of lung cancer patients with the goal of predicting patient mortality. By applying machine learning techniques, I aim to identify key factors that influence survival outcomes and develop a model capable of accurately classifying mortality risk
+This project explores a dataset of lung cancer patients with the goal of predicting patient mortality.  
+By applying machine learning techniques, I aim to identify key factors that influence survival outcomes and develop a model capable of accurately classifying mortality risk.
 
 ---
 
 ## ✨ Features
-- 🔹 Preform Exploratory Data Analysis on the dataset
-    - 🔹 Understanding the shape and distribution of the data
-    - 🔹 Analyse the missing values in the dataset, and the best impuation solution
-    - 🔹 Univariate and Bivariate Analysis of the features in the dataset
-- 🔹 Feature Engineering
-    - 🔹 Creating new features to generate new predictive features and boost preformance
-- 🔹 Modeling 
-    - 🔹 Using classification models like Logisitic Regression, Random Forest, and Boosting algorithms to compare preformance
+- 🔹 **Exploratory Data Analysis (EDA)**
+  - Understanding the shape and distribution of the data
+  - Analyzing missing values and identifying the best imputation strategies
+  - Performing univariate and bivariate analysis of dataset features
+- 🔹 **Feature Engineering**
+  - Creating new features to improve predictive power
+  - Testing feature selection methods to reduce noise
+- 🔹 **Modeling**
+  - Training and comparing classification models such as Logistic Regression, Random Forest, and Gradient Boosting
+  - Evaluating model performance with appropriate metrics (accuracy, precision, recall, F1, ROC-AUC)
 
 ---
 
 ## 🛠 Tech Stack
-- **Languages:** Python
-- **Frameworks/Tools:** Numpy, Pandas, Sklearn, Matplotlib, Seaborn
+- **Languages:** Python  
+- **Libraries/Tools:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn  
 
-## Dataset
+---
 
-Dataset from: https://www.kaggle.com/datasets/khwaishsaxena/lung-cancer-dataset
-
+## 📂 Dataset
+- Source: [Kaggle – Lung Cancer Dataset](https://www.kaggle.com/datasets/khwaishsaxena/lung-cancer-dataset)  
+- Includes patient demographics, medical attributes, and outcomes relevant to lung cancer survival analysis.  
